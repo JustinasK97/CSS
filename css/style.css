@@ -1,64 +1,52 @@
-*{
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+img{
 	text-align: center;
 }
+div{
+	text-align: center;
+	font-size: 1.5em;
+	border-top: 1.5px solid silver;
+	border-bottom: 1.5px solid silver;
+	border-top:double;
+	border-bottom: double;
+	padding:0.7em;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+	margin: 10px auto;
+}
+h3{
+	font-size:2em;
+
+}
+h4{
+	font-size: 1.5em;
+
+}
+p{
+	font-size: 1.2em;
+
+}
+span{
+	color:silver;
+
+}
 article{
-	background-color:pink;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}	
+footer{
+	text-align: center;
+
 }
-section{
-	background-color:silver;
+.fa-angle-double-right{
+	color:silver;
 }
-#super{
-	background-color: grey;
-}
-.lead{
-	font-size: 2em;
-}
-.strong{
-	font-weight: bold;
-}
-.hide{
-	display: none;
-}
-a[href="http://www.kitm.lt"]{
-	color:red;
-}
-a[href="http://www.smm.lt"]{
+.fa-book{
 	color:orange;
-}
-a[href="http://www.delfi.lt"]{
-	color:purple;
-}
-a[href$=".pdf"]{
-	color:green;
-}
-a[href$=".docx"]{
-	color:red;
-}
-a[href$=".xlsx"]{
-	color:grey;
-}
-
-/*Links*/
-
-a:link{
-	color:red;
-	text-decoration: none;
-}
-a:visited{
-	color:green;
-}
-a:hover{
-	color:aqua;
-}
-li:first-child{
-	background-color:red;
-}
-li:last-child{
-	background-color:gold;
-}
-li:nth-child(3n+1){
-	background-color: pink;
-}
-li:nth-child(4n+2){
-	background-color:blue;
 }
