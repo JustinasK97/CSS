@@ -1,52 +1,62 @@
 .container{
-	width:80%;
+	width:70%;
 	margin: 0 auto;
 }
-img{
-	text-align: center;
+header img{
+	display: inline-block;
 }
-div{
+header p{
+	padding: 10px;
+	border-top: 4px double silver;
+	border-bottom: 4px double silver;
 	text-align: center;
-	font-size: 1.5em;
-	border-top: 1.5px solid silver;
-	border-bottom: 1.5px solid silver;
-	border-top:double;
-	border-bottom: double;
-	padding:0.7em;
+	font-size: 1.35em;
 }
 h1{
 	text-align: center;
 	font-size: 4em;
-	margin: 10px auto;
 }
-h3{
+h2{
 	font-size:2em;
 
 }
-h4{
-	font-size: 1.5em;
+p{
+	font-size: 0.9em;
 
 }
-p{
+footer p{
 	font-size: 1.2em;
-
+	color:silver;
 }
 span{
 	color:silver;
 
 }
-article{
-	text-align: center;
+section article{
+	width: 24%;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
+	padding: 0.5px;
+	margin: 0 2.5px;
 }	
+footer strong{
+	color:black;
+
+}
 footer{
 	text-align: center;
-
 }
 .fa-angle-double-right{
 	color:silver;
+	padding: 5px;
+	font-size: 0.8em;
 }
 .fa-book{
 	color:orange;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2{
+	font-family: 'Noto Sans', sans-serif;
 }
